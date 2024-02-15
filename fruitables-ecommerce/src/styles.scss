@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.theme-text-primary {
+    color: #81c408 !important;
+}
+
+.theme-text-secondary {
+    color: #ffb524 !important;
+}
+
+a {
+    color: #81c408;
+    text-decoration: none;
+}
+
+.text-dark {
+    color: #45595b !important;
+}
+
+.theme-border-secondary {
+    border-color: #ffb524 !important;
+}
+
+.theme-bg-secondary {
+    background-color: #ffb524 !important;
+}

@@ -1,4 +1,8 @@
 
+body {
+    color: #747d88;
+}
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -70,7 +74,7 @@
 }
 
 .btn.border-secondary:hover {
-    background: var(--bs-secondary) !important;
+    background: #ffb524 !important;
     color: var(--bs-white) !important;
 }
 
@@ -405,7 +409,7 @@
 }
 
 .counter h4 {
-    color: var(--bs-primary);
+    color: #81c408;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -484,10 +488,11 @@
     line-height: 35px;
     color: rgba(255, 255, 255, .5);
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .footer .footer-item .btn-link:hover {
-    color: var(--bs-secondary) !important;
+    color: #ffb524 !important;
 }
 
 .footer .footer-item p.mb-4 {
