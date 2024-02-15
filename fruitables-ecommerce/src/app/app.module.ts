@@ -11,6 +11,8 @@ import { FactComponent } from './common/components/fact/fact.component';
 import { SpecialProductsComponent } from './common/components/special-products/special-products.component';
 import { BannerComponent } from './common/components/banner/banner.component';
 import { OrganicVegetablesComponent } from './common/components/organic-vegetables/organic-vegetables.component';
+import { FeaturesDiscountComponent } from './common/components/features-discount/features-discount.component';
+import { OurOrganicProductsComponent } from './common/components/our-organic-products/our-organic-products.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { OrganicVegetablesComponent } from './common/components/organic-vegetabl
     FactComponent,
     SpecialProductsComponent,
     BannerComponent,
-    OrganicVegetablesComponent
+    OrganicVegetablesComponent,
+    FeaturesDiscountComponent,
+    OurOrganicProductsComponent
   ],
   imports: [
     BrowserModule,
