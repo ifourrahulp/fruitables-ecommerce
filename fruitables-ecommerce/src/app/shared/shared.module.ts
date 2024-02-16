@@ -13,6 +13,7 @@ import { OurOrganicProductsComponent } from '../common/components/our-organic-pr
 import { FeaturesPolicyComponent } from '../common/components/features-policy/features-policy.component';
 import { MainSilderComponent } from '../common/components/main-silder/main-silder.component';
 import { TopbarComponent } from '../common/components/topbar/topbar.component';
+import { RelatedProductsComponent } from '../common/components/related-products/related-products.component';
 
 
 
@@ -29,7 +30,9 @@ import { TopbarComponent } from '../common/components/topbar/topbar.component';
     FeaturesPolicyComponent,
     MainSilderComponent,
     TopbarComponent,
-    NavbarComponent],
+    NavbarComponent,
+    RelatedProductsComponent
+  ],
   imports: [
     CommonModule,
   ],
@@ -45,7 +48,8 @@ import { TopbarComponent } from '../common/components/topbar/topbar.component';
     FeaturesPolicyComponent,
     MainSilderComponent,
     TopbarComponent,
-    NavbarComponent
+    NavbarComponent,
+    RelatedProductsComponent
   ]
 })
 export class SharedModule { }

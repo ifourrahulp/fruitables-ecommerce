@@ -18,6 +18,7 @@ import { MainSilderComponent } from './common/components/main-silder/main-silder
 import { TopbarComponent } from './common/components/topbar/topbar.component';
 import { NavbarComponent } from './common/components/navbar/navbar.component';
 import { PagesModule } from './pages/pages.module';
+import { RelatedProductsComponent } from './common/components/related-products/related-products.component';
 
 @NgModule({
   declarations: [

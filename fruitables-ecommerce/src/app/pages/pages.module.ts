@@ -6,13 +6,15 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { ProductsListingComponent } from './products-listing/products-listing.component';
 import { InfiniteScrollModule } from "ngx-infinite-scroll";
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 @NgModule({
   declarations: [
     LayoutComponent,
     HomeComponent,
-    ProductsListingComponent
+    ProductsListingComponent,
+    ProductDetailComponent
   ],
   imports: [
     CommonModule,
