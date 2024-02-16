@@ -17,28 +17,16 @@ import { FeaturesPolicyComponent } from './common/components/features-policy/fea
 import { MainSilderComponent } from './common/components/main-silder/main-silder.component';
 import { TopbarComponent } from './common/components/topbar/topbar.component';
 import { NavbarComponent } from './common/components/navbar/navbar.component';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    CopyrightComponent,
-    TestimonialComponent,
-    FactComponent,
-    SpecialProductsComponent,
-    BannerComponent,
-    OrganicVegetablesComponent,
-    FeaturesDiscountComponent,
-    OurOrganicProductsComponent,
-    FeaturesPolicyComponent,
-    MainSilderComponent,
-    TopbarComponent,
-    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
