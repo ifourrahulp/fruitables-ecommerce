@@ -136,7 +136,7 @@ body {
 .navbar .navbar-nav .nav-link.active,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #81c408;
 }
 
 .navbar .dropdown-toggle::after {
@@ -256,12 +256,12 @@ body {
     content: "";
     width: 35px;
     height: 35px;
-    background: var(--bs-secondary);
+    background:  #ffb524;
     position: absolute;
     bottom: -10px;
     transform: translate(-50%);
     transform: rotate(45deg);
-    background: var(--bs-secondary);
+    background:  #ffb524;
     
 }
 /*** featurs End ***/

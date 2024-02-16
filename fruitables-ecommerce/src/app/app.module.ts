@@ -13,6 +13,10 @@ import { BannerComponent } from './common/components/banner/banner.component';
 import { OrganicVegetablesComponent } from './common/components/organic-vegetables/organic-vegetables.component';
 import { FeaturesDiscountComponent } from './common/components/features-discount/features-discount.component';
 import { OurOrganicProductsComponent } from './common/components/our-organic-products/our-organic-products.component';
+import { FeaturesPolicyComponent } from './common/components/features-policy/features-policy.component';
+import { MainSilderComponent } from './common/components/main-silder/main-silder.component';
+import { TopbarComponent } from './common/components/topbar/topbar.component';
+import { NavbarComponent } from './common/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { OurOrganicProductsComponent } from './common/components/our-organic-pro
     BannerComponent,
     OrganicVegetablesComponent,
     FeaturesDiscountComponent,
-    OurOrganicProductsComponent
+    OurOrganicProductsComponent,
+    FeaturesPolicyComponent,
+    MainSilderComponent,
+    TopbarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
