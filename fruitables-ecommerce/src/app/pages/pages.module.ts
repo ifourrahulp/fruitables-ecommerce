@@ -4,18 +4,21 @@ import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { SharedModule } from '../shared/shared.module';
-
+import { ProductsListingComponent } from './products-listing/products-listing.component';
+import { InfiniteScrollModule } from "ngx-infinite-scroll";
 
 
 @NgModule({
   declarations: [
     LayoutComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsListingComponent
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
-    SharedModule
+    SharedModule,
+    InfiniteScrollModule
   ]
 })
 export class PagesModule { }
