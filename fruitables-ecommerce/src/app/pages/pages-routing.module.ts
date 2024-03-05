@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductsListingComponent } from './products-listing/products-listing.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
   {
@@ -23,9 +24,13 @@ const routes: Routes = [
       //   path: '',
       //   component: ProductDetailComponent
       // }
-       {
+      //  {
+      //   path: '',
+      //   component:ContactUsComponent
+      // },
+      {
         path: '',
-        component:ContactUsComponent
+        component:CheckoutComponent
       }
     ]
   }
