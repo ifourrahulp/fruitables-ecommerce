@@ -6,6 +6,7 @@ import { ProductsListingComponent } from './products-listing/products-listing.co
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
   {
@@ -28,9 +29,13 @@ const routes: Routes = [
       //   path: '',
       //   component:ContactUsComponent
       // },
+      // {
+      //   path: '',
+      //   component:CheckoutComponent
+      // }
       {
         path: '',
-        component:CheckoutComponent
+        component:CartComponent
       }
     ]
   }

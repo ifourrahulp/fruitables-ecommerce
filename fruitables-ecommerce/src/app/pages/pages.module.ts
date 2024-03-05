@@ -9,6 +9,7 @@ import { InfiniteScrollModule } from "ngx-infinite-scroll";
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
     ProductsListingComponent,
     ProductDetailComponent,
     ContactUsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    CartComponent
   ],
   imports: [
     CommonModule,
