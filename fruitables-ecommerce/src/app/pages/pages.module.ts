@@ -10,6 +10,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CartComponent } from './cart/cart.component';
     ProductDetailComponent,
     ContactUsComponent,
     CheckoutComponent,
-    CartComponent
+    CartComponent,
+    NotFoundComponent
   ],
   imports: [
     CommonModule,
