@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ProductsListingComponent } from './products-listing/products-listing.component';
 import { InfiniteScrollModule } from "ngx-infinite-scroll";
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     LayoutComponent,
     HomeComponent,
     ProductsListingComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,

@@ -4,6 +4,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsListingComponent } from './products-listing/products-listing.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   {
@@ -18,9 +19,13 @@ const routes: Routes = [
       //   path: '',
       //   component: ProductsListingComponent
       // },
-      {
+      // {
+      //   path: '',
+      //   component: ProductDetailComponent
+      // }
+       {
         path: '',
-        component: ProductDetailComponent
+        component:ContactUsComponent
       }
     ]
   }
